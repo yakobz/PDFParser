@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//  PDFParser
+//
+//  Created by Andrew Danileyko on 12.07.16.
+//  Copyright © 2016 Andrew Danileyko. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#import <Cocoa/Cocoa.h>
+
+#endif

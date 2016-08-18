@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66DFC5F71D645C7B00EEBF56 /* CHIXMLFinalCutCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DFC5F61D645C7B00EEBF56 /* CHIXMLFinalCutCreator.m */; };
+		66DFC5FA1D64972A00EEBF56 /* CHIBuilderPlaginsInfoArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DFC5F91D64972A00EEBF56 /* CHIBuilderPlaginsInfoArray.m */; };
+		BD11AA941D351DEC00A2AD3A /* CHIPDFExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA831D351DEC00A2AD3A /* CHIPDFExtractor.m */; };
+		BD11AA951D351DEC00A2AD3A /* CHIPDFGraphicsState.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA851D351DEC00A2AD3A /* CHIPDFGraphicsState.m */; };
+		BD11AA961D351DEC00A2AD3A /* CHIPDFParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA871D351DEC00A2AD3A /* CHIPDFParser.m */; };
+		BD11AA971D351DEC00A2AD3A /* CHIPDFParserReadFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA891D351DEC00A2AD3A /* CHIPDFParserReadFunctions.m */; };
+		BD11AA981D351DEC00A2AD3A /* CHIPDFPath.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA8B1D351DEC00A2AD3A /* CHIPDFPath.m */; };
+		BD11AA991D351DEC00A2AD3A /* CHIPDFRef.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA8D1D351DEC00A2AD3A /* CHIPDFRef.m */; };
+		BD11AA9A1D351DEC00A2AD3A /* CHIPDFRender.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA8F1D351DEC00A2AD3A /* CHIPDFRender.m */; };
+		BD11AA9B1D351DEC00A2AD3A /* CHIPDFRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA911D351DEC00A2AD3A /* CHIPDFRenderView.m */; };
+		BD11AA9C1D351DEC00A2AD3A /* CHIPDFTextState.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AA931D351DEC00A2AD3A /* CHIPDFTextState.m */; };
+		BD11AAA11D351E6A00A2AD3A /* NSData+Compression.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AAA01D351E6A00A2AD3A /* NSData+Compression.m */; };
+		BD11AAA51D351E7E00A2AD3A /* ASUtilites.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11AAA41D351E7E00A2AD3A /* ASUtilites.m */; };
+		BD11AAA71D351EA200A2AD3A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BD11AAA61D351EA200A2AD3A /* libz.tbd */; };
+		BD5D56651D34E43F00BA13ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5D56641D34E43F00BA13ED /* AppDelegate.m */; };
+		BD5D56681D34E43F00BA13ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5D56671D34E43F00BA13ED /* main.m */; };
+		BD5D566B1D34E43F00BA13ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5D566A1D34E43F00BA13ED /* ViewController.m */; };
+		BD5D566D1D34E43F00BA13ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5D566C1D34E43F00BA13ED /* Assets.xcassets */; };
+		BD5D56701D34E43F00BA13ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5D566E1D34E43F00BA13ED /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66DFC5F51D645C7B00EEBF56 /* CHIXMLFinalCutCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIXMLFinalCutCreator.h; sourceTree = "<group>"; };
+		66DFC5F61D645C7B00EEBF56 /* CHIXMLFinalCutCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIXMLFinalCutCreator.m; sourceTree = "<group>"; };
+		66DFC5F81D64972A00EEBF56 /* CHIBuilderPlaginsInfoArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIBuilderPlaginsInfoArray.h; sourceTree = "<group>"; };
+		66DFC5F91D64972A00EEBF56 /* CHIBuilderPlaginsInfoArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIBuilderPlaginsInfoArray.m; sourceTree = "<group>"; };
+		BD11AA821D351DEC00A2AD3A /* CHIPDFExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFExtractor.h; sourceTree = "<group>"; };
+		BD11AA831D351DEC00A2AD3A /* CHIPDFExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFExtractor.m; sourceTree = "<group>"; };
+		BD11AA841D351DEC00A2AD3A /* CHIPDFGraphicsState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFGraphicsState.h; sourceTree = "<group>"; };
+		BD11AA851D351DEC00A2AD3A /* CHIPDFGraphicsState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFGraphicsState.m; sourceTree = "<group>"; };
+		BD11AA861D351DEC00A2AD3A /* CHIPDFParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFParser.h; sourceTree = "<group>"; };
+		BD11AA871D351DEC00A2AD3A /* CHIPDFParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFParser.m; sourceTree = "<group>"; };
+		BD11AA881D351DEC00A2AD3A /* CHIPDFParserReadFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFParserReadFunctions.h; sourceTree = "<group>"; };
+		BD11AA891D351DEC00A2AD3A /* CHIPDFParserReadFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFParserReadFunctions.m; sourceTree = "<group>"; };
+		BD11AA8A1D351DEC00A2AD3A /* CHIPDFPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFPath.h; sourceTree = "<group>"; };
+		BD11AA8B1D351DEC00A2AD3A /* CHIPDFPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFPath.m; sourceTree = "<group>"; };
+		BD11AA8C1D351DEC00A2AD3A /* CHIPDFRef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFRef.h; sourceTree = "<group>"; };
+		BD11AA8D1D351DEC00A2AD3A /* CHIPDFRef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFRef.m; sourceTree = "<group>"; };
+		BD11AA8E1D351DEC00A2AD3A /* CHIPDFRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFRender.h; sourceTree = "<group>"; };
+		BD11AA8F1D351DEC00A2AD3A /* CHIPDFRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFRender.m; sourceTree = "<group>"; };
+		BD11AA901D351DEC00A2AD3A /* CHIPDFRenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPDFRenderView.h; sourceTree = "<group>"; };
+		BD11AA911D351DEC00A2AD3A /* CHIPDFRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFRenderView.m; sourceTree = "<group>"; };
+		BD11AA921D351DEC00A2AD3A /* CHIPDFTextState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHIPDFTextState.h; path = PDFParser/CHIPDFTextState.h; sourceTree = "<group>"; };
+		BD11AA931D351DEC00A2AD3A /* CHIPDFTextState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHIPDFTextState.m; sourceTree = "<group>"; };
+		BD11AA9D1D351E0000A2AD3A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		BD11AA9F1D351E6A00A2AD3A /* NSData+Compression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Compression.h"; sourceTree = "<group>"; };
+		BD11AAA01D351E6A00A2AD3A /* NSData+Compression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Compression.m"; sourceTree = "<group>"; };
+		BD11AAA31D351E7E00A2AD3A /* ASUtilites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASUtilites.h; sourceTree = "<group>"; };
+		BD11AAA41D351E7E00A2AD3A /* ASUtilites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASUtilites.m; sourceTree = "<group>"; };
+		BD11AAA61D351EA200A2AD3A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BD5D56601D34E43F00BA13ED /* PDFParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5D56631D34E43F00BA13ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD5D56641D34E43F00BA13ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD5D56671D34E43F00BA13ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD5D56691D34E43F00BA13ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD5D566A1D34E43F00BA13ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD5D566C1D34E43F00BA13ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD5D566F1D34E43F00BA13ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD5D56711D34E43F00BA13ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5D565D1D34E43F00BA13ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11AAA71D351EA200A2AD3A /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6601072F1D5CB81400391FEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD11AA811D351DEC00A2AD3A /* PDFParser */ = {
+			isa = PBXGroup;
+			children = (
+				BD11AA821D351DEC00A2AD3A /* CHIPDFExtractor.h */,
+				BD11AA831D351DEC00A2AD3A /* CHIPDFExtractor.m */,
+				BD11AA841D351DEC00A2AD3A /* CHIPDFGraphicsState.h */,
+				BD11AA851D351DEC00A2AD3A /* CHIPDFGraphicsState.m */,
+				BD11AA861D351DEC00A2AD3A /* CHIPDFParser.h */,
+				BD11AA871D351DEC00A2AD3A /* CHIPDFParser.m */,
+				BD11AA881D351DEC00A2AD3A /* CHIPDFParserReadFunctions.h */,
+				BD11AA891D351DEC00A2AD3A /* CHIPDFParserReadFunctions.m */,
+				BD11AA8A1D351DEC00A2AD3A /* CHIPDFPath.h */,
+				BD11AA8B1D351DEC00A2AD3A /* CHIPDFPath.m */,
+				BD11AA8C1D351DEC00A2AD3A /* CHIPDFRef.h */,
+				BD11AA8D1D351DEC00A2AD3A /* CHIPDFRef.m */,
+				BD11AA8E1D351DEC00A2AD3A /* CHIPDFRender.h */,
+				BD11AA8F1D351DEC00A2AD3A /* CHIPDFRender.m */,
+				BD11AA901D351DEC00A2AD3A /* CHIPDFRenderView.h */,
+				BD11AA911D351DEC00A2AD3A /* CHIPDFRenderView.m */,
+				BD11AA931D351DEC00A2AD3A /* CHIPDFTextState.m */,
+			);
+			path = PDFParser;
+			sourceTree = "<group>";
+		};
+		BD11AA9E1D351E6A00A2AD3A /* Compression */ = {
+			isa = PBXGroup;
+			children = (
+				BD11AA9F1D351E6A00A2AD3A /* NSData+Compression.h */,
+				BD11AAA01D351E6A00A2AD3A /* NSData+Compression.m */,
+			);
+			path = Compression;
+			sourceTree = "<group>";
+		};
+		BD11AAA21D351E7E00A2AD3A /* ASUtilites */ = {
+			isa = PBXGroup;
+			children = (
+				BD11AAA31D351E7E00A2AD3A /* ASUtilites.h */,
+				BD11AAA41D351E7E00A2AD3A /* ASUtilites.m */,
+			);
+			path = ASUtilites;
+			sourceTree = "<group>";
+		};
+		BD5D56571D34E43F00BA13ED = {
+			isa = PBXGroup;
+			children = (
+				BD11AAA61D351EA200A2AD3A /* libz.tbd */,
+				BD5D56621D34E43F00BA13ED /* PDFParser */,
+				BD5D56611D34E43F00BA13ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5D56611D34E43F00BA13ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D56601D34E43F00BA13ED /* PDFParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5D56621D34E43F00BA13ED /* PDFParser */ = {
+			isa = PBXGroup;
+			children = (
+				6601072F1D5CB81400391FEA /* Frameworks */,
+				BD11AAA21D351E7E00A2AD3A /* ASUtilites */,
+				BD11AA9E1D351E6A00A2AD3A /* Compression */,
+				BD11AA811D351DEC00A2AD3A /* PDFParser */,
+				BD5D56631D34E43F00BA13ED /* AppDelegate.h */,
+				BD11AA921D351DEC00A2AD3A /* CHIPDFTextState.h */,
+				BD5D56641D34E43F00BA13ED /* AppDelegate.m */,
+				BD5D56691D34E43F00BA13ED /* ViewController.h */,
+				BD5D566A1D34E43F00BA13ED /* ViewController.m */,
+				66DFC5F51D645C7B00EEBF56 /* CHIXMLFinalCutCreator.h */,
+				66DFC5F61D645C7B00EEBF56 /* CHIXMLFinalCutCreator.m */,
+				66DFC5F81D64972A00EEBF56 /* CHIBuilderPlaginsInfoArray.h */,
+				66DFC5F91D64972A00EEBF56 /* CHIBuilderPlaginsInfoArray.m */,
+				BD5D566C1D34E43F00BA13ED /* Assets.xcassets */,
+				BD5D566E1D34E43F00BA13ED /* Main.storyboard */,
+				BD5D56711D34E43F00BA13ED /* Info.plist */,
+				BD5D56661D34E43F00BA13ED /* Supporting Files */,
+			);
+			path = PDFParser;
+			sourceTree = "<group>";
+		};
+		BD5D56661D34E43F00BA13ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD5D56671D34E43F00BA13ED /* main.m */,
+				BD11AA9D1D351E0000A2AD3A /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5D565F1D34E43F00BA13ED /* PDFParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5D56741D34E43F00BA13ED /* Build configuration list for PBXNativeTarget "PDFParser" */;
+			buildPhases = (
+				BD5D565C1D34E43F00BA13ED /* Sources */,
+				BD5D565D1D34E43F00BA13ED /* Frameworks */,
+				BD5D565E1D34E43F00BA13ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFParser;
+			productName = PDFParser;
+			productReference = BD5D56601D34E43F00BA13ED /* PDFParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5D56581D34E43F00BA13ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Andrew Danileyko";
+				TargetAttributes = {
+					BD5D565F1D34E43F00BA13ED = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BD5D565B1D34E43F00BA13ED /* Build configuration list for PBXProject "PDFParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5D56571D34E43F00BA13ED;
+			productRefGroup = BD5D56611D34E43F00BA13ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5D565F1D34E43F00BA13ED /* PDFParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5D565E1D34E43F00BA13ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5D566D1D34E43F00BA13ED /* Assets.xcassets in Resources */,
+				BD5D56701D34E43F00BA13ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5D565C1D34E43F00BA13ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11AA961D351DEC00A2AD3A /* CHIPDFParser.m in Sources */,
+				BD11AA951D351DEC00A2AD3A /* CHIPDFGraphicsState.m in Sources */,
+				BD11AA981D351DEC00A2AD3A /* CHIPDFPath.m in Sources */,
+				BD5D566B1D34E43F00BA13ED /* ViewController.m in Sources */,
+				BD11AA9C1D351DEC00A2AD3A /* CHIPDFTextState.m in Sources */,
+				BD11AA971D351DEC00A2AD3A /* CHIPDFParserReadFunctions.m in Sources */,
+				BD11AA9B1D351DEC00A2AD3A /* CHIPDFRenderView.m in Sources */,
+				BD11AA991D351DEC00A2AD3A /* CHIPDFRef.m in Sources */,
+				BD11AAA51D351E7E00A2AD3A /* ASUtilites.m in Sources */,
+				66DFC5F71D645C7B00EEBF56 /* CHIXMLFinalCutCreator.m in Sources */,
+				BD5D56681D34E43F00BA13ED /* main.m in Sources */,
+				66DFC5FA1D64972A00EEBF56 /* CHIBuilderPlaginsInfoArray.m in Sources */,
+				BD11AA941D351DEC00A2AD3A /* CHIPDFExtractor.m in Sources */,
+				BD5D56651D34E43F00BA13ED /* AppDelegate.m in Sources */,
+				BD11AAA11D351E6A00A2AD3A /* NSData+Compression.m in Sources */,
+				BD11AA9A1D351DEC00A2AD3A /* CHIPDFRender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD5D566E1D34E43F00BA13ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5D566F1D34E43F00BA13ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5D56721D34E43F00BA13ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BD5D56731D34E43F00BA13ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD5D56751D34E43F00BA13ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = PDFParser/PrefixHeader.pch;
+				INFOPLIST_FILE = PDFParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHI.PDFParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD5D56761D34E43F00BA13ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = PDFParser/PrefixHeader.pch;
+				INFOPLIST_FILE = PDFParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CHI.PDFParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5D565B1D34E43F00BA13ED /* Build configuration list for PBXProject "PDFParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5D56721D34E43F00BA13ED /* Debug */,
+				BD5D56731D34E43F00BA13ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5D56741D34E43F00BA13ED /* Build configuration list for PBXNativeTarget "PDFParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5D56751D34E43F00BA13ED /* Debug */,
+				BD5D56761D34E43F00BA13ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD5D56581D34E43F00BA13ED /* Project object */;
+}
